@@ -1,7 +1,7 @@
 {
   "scripts": {
-    "build": "rm -rf dist/ && npx tsc && node ./dist/app.js",
-    "cleanBuild": "rm -rf dist/ && rm -rf node_modules/ && npm install && npx tsc && node ./dist/app.js"
+    "build": "rm -rf dist/ && npx tsc && node ./dist/src/app.js",
+    "cleanBuild": "rm -rf dist/ && rm -rf node_modules/ && npm install && npx tsc && node ./dist/src/app.js"
   },
   "devDependencies": {
     "@types/jest": "^30.0.0",
